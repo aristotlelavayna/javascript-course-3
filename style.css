@@ -1,0 +1,36 @@
+            /* COUNTER PROGRAM */
+#countLabel {
+    display: block;
+    text-align: center;
+    font-size: 50px;
+}
+
+.buttons {
+    text-align: center;    
+}
+
+#decreaseBtn{
+    background-color: blue;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+#resetBtn {
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+#increaseBtn {
+    background-color: green;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+}
+            /* END OF COUNTER PROGRAM */
+

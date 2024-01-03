@@ -97,5 +97,24 @@ console.log('Side C:', c); */
 
     document.getElementById('cLabel').innerHTML = 'Side C: ' + c;
 } */
-
 //////////// END OF HYPOTENUSE CALCULATOR PRACTICE PROGRAM //////////////
+
+
+/////////////////////////// COUNTER PROGRAM /////////////////////////////
+/* let count = 0;
+
+document.getElementById('decreaseBtn').onclick = function () {
+    count-=1;
+    document.getElementById('countLabel').innerHTML = count;
+}
+
+document.getElementById('resetBtn').onclick = function () {
+    count=0;
+    document.getElementById('countLabel').innerHTML = count;
+}
+
+document.getElementById('increaseBtn').onclick = function () {
+    count+=1;
+    document.getElementById('countLabel').innerHTML = count;
+} */
+//////////////////////// END OF COUNTER PROGRAM //////////////////////// 
