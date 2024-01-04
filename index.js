@@ -98,7 +98,7 @@ if (online) {
 ////////////////////// SWITCH  STATEMENT LESSON /////////////////////////
 //switch is a statement that examines a value for a match against many case clauses. more efficient than many "else if" statements.
 
-let rating = "F";
+/* let rating = "F";
 
 switch (rating) {
     case "A":
@@ -138,5 +138,30 @@ switch (true) {
     default:
         console.log("You FAILED!");
         break;
-}
+} */
 /////////////////// END OF SWITCH STATEMENT LESSON //////////////////////
+
+
+//////////////////////// && || OPERATORS LESSON /////////////////////////
+// && both conditions must be true.
+// || either condtion can be true.
+
+// && OPERATOR
+/* let temp = 15;
+let sunny = false; // boolean value
+
+if (temp > 0 && temp < 30 && sunny) {
+    console.log("The weather is good");
+} else {
+    console.log("The weather is bad");
+}
+
+// || OPERATOR
+let temperature = 15
+
+if (temperature <= 0 || temperature >= 30) {
+    console.log("The weather is good");
+} else {
+    console.log("The weather is bad");
+} */
+////////////////// END OF && || OPERATORS LESSON /////////////////////// 
