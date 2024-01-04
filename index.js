@@ -240,3 +240,24 @@ console.log("HAPPY NEW YEAR!"); */
     console.log(i);
 } */
 ////////////// END OF BREAK AND CONTINUE STATEMENTS LESSON //////////////
+
+
+////////////////////////// FUNCTIONS LESSON /////////////////////////////
+// function = define code once and use it many times. to perform some code, call the function name.
+/* startProgram();
+
+function startProgram() {
+    let userName = "Aris";
+    let age = 41;
+
+    happyBirthday(userName, age);
+}
+
+function happyBirthday(userName, age) {
+    console.log("happy birthday to you!");
+    console.log("happy birthday to you!");
+    console.log("happy birthday dear", userName);
+    console.log("happy birthday to you!");
+    console.log("you are", age, "years old!");
+} */
+//////////////////////// END OF FUNCTION LESSON /////////////////////////
