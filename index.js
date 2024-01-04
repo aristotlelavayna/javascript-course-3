@@ -186,3 +186,17 @@ if (!sunny) {
     console.log("It's sunny outside");
 } */
 //////////////////// END OF ! NOT LOGICAL OPERATOR //////////////////////
+
+
+///////////////////////// WHILE LOOPS LESSON ////////////////////////////
+//repeat some code while some condition is true potentially infinite.
+
+/* let userName = "";
+
+while (userName == "" || userName == null) {
+    userName = window.prompt("Enter your name.");
+}
+
+alert(`Hello ${userName}!`) //changed from console.log */
+
+////////////////////// END OF WHILE LOOPS LESSON ////////////////////////
