@@ -261,3 +261,24 @@ function happyBirthday(userName, age) {
     console.log("you are", age, "years old!");
 } */
 //////////////////////// END OF FUNCTION LESSON /////////////////////////
+
+
+/////////////////////// RETURN STATEMENT LESSON /////////////////////////
+//return = returns a value back to the place where you invoked a function.
+
+let area;
+let width;
+let height;
+
+width = window.prompt("Enter width");
+height = window.prompt("Enter height");
+
+area = getArea(width, height);
+
+alert(`The area is ${area}`); //changed from console.log
+//console.log("The area is:", area);
+
+function getArea(width, height) {
+    return width * height;
+}
+/////////////////// END OF RETURN STATEMENT LESSON //////////////////////
