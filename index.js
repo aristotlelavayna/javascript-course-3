@@ -212,3 +212,18 @@ alert(`Hello ${userName}!`) //changed from console.log */
 
 console.log("Hello", userName); */
 ///////////////////// END OF DO WHILE LOOPS LESSON //////////////////////
+
+
+/////////////////////////// FOR LOOPS LESSON ////////////////////////////
+// for loop = repeat some code a certain amount of time.
+
+/* for (let i = 1; i <= 10; i+=1) {
+    console.log(i);
+}
+
+// countdown loop
+for (let i = 10; i > 0; i-=1) {
+    console.log(i);
+}
+console.log("HAPPY NEW YEAR!"); */
+/////////////////////// END OF FOR LOOPS LESSON /////////////////////////
