@@ -92,4 +92,51 @@ if (online) {
 } else {
     console.log('you are offline!');
 } */
-///////////////////////// END OF IF STATEMENT ////////////////////////// 
+///////////////////////// END OF IF STATEMENT //////////////////////////
+
+
+////////////////////// SWITCH  STATEMENT LESSON /////////////////////////
+//switch is a statement that examines a value for a match against many case clauses. more efficient than many "else if" statements.
+
+let rating = "F";
+
+switch (rating) {
+    case "A":
+        console.log("You did great!");
+        break;
+    case "B":
+        console.log("You did good!");
+        break;
+    case "C":
+        console.log("You did ok!");
+        break;
+    case "D":
+        console.log("You passed ... barely!");
+        break;
+    case "F":
+        console.log("You FAILED!");
+        break;
+    default:
+        console.log("is not a letter grade");
+        break;
+}
+
+let grade = 60;
+switch (true) {
+    case grade >= 90:
+        console.log("You did great");
+        break;
+    case grade >= 80:
+        console.log("You did good!");
+        break;
+    case grade >= 70:
+        console.log("You did okay!");
+        break;
+    case grade >= 60:
+        console.log("You passed ... barely!");
+        break;    
+    default:
+        console.log("You FAILED!");
+        break;
+}
+/////////////////// END OF SWITCH STATEMENT LESSON //////////////////////
