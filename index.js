@@ -266,7 +266,7 @@ function happyBirthday(userName, age) {
 /////////////////////// RETURN STATEMENT LESSON /////////////////////////
 //return = returns a value back to the place where you invoked a function.
 
-let area;
+/* let area;
 let width;
 let height;
 
@@ -280,5 +280,30 @@ alert(`The area is ${area}`); //changed from console.log
 
 function getArea(width, height) {
     return width * height;
-}
+} */
 /////////////////// END OF RETURN STATEMENT LESSON //////////////////////
+
+
+////////////////////// TERNARY OPERATOR  LESSON /////////////////////////
+// ternary operator = shortcut for an 'if/else statement'
+// Takes 3 operands: 
+// 1. a condition with ?
+// 2. expression if True :
+// 3. expression if False
+
+// condition ? exprIfTrue : exprIfFalse
+
+/* let adult = checkAge(21);
+console.log(adult);
+
+function checkAge(age) {
+    return age >= 18 ? true : false;
+}
+
+//example 2
+checkWinner(false);
+
+function checkWinner(win) {
+    win ? console.log('YOU WIN!') : console.log('YOU LOSE!');
+} */
+//////////////////// END OF TERNARY OPERATOR LESSON /////////////////////
