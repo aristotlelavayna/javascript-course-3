@@ -95,7 +95,7 @@ if (online) {
 ///////////////////////// END OF IF STATEMENT //////////////////////////
 
 
-////////////////////// SWITCH  STATEMENT LESSON /////////////////////////
+/////////////////////// SWITCH STATEMENT LESSON /////////////////////////
 //switch is a statement that examines a value for a match against many case clauses. more efficient than many "else if" statements.
 
 /* let rating = "F";
