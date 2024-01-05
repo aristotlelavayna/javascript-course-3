@@ -101,7 +101,7 @@ function sum(...numbers) {
 
 
 /////////////////////// array.forEach() LESSON //////////////////////////
-let students = ["spongebob", "patrick", "squidward"];
+/* let students = ["spongebob", "patrick", "squidward"];
 students.forEach(capitalize);
 students.forEach(print);
 
@@ -113,4 +113,5 @@ function capitalize(element, index, array) {
 
 function print(element) {
     console.log(element);
-}
+} */
+///////////////////// END OF array.forEach() LESSON /////////////////////
