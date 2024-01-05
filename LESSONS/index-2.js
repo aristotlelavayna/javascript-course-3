@@ -171,3 +171,27 @@ function checkOut(total, element) {
     return total + element;
 } */
 //////////////////// END OF array.reduce() LESSON ///////////////////////
+
+
+////////////////// SORT AN ARRAY OF NUMBERS LESSON //////////////////////
+// sort array descending or ascending order.
+
+/* let grades = [100, 50, 90, 60, 80, 70];
+
+//grades = grades.sort(descendingSort);
+grades = grades.sort(ascendingSort);
+
+grades.forEach(print);
+
+function descendingSort(x, y) { // descending order
+    return y - x;
+}
+
+function ascendingSort(x, y) {  // ascending order
+    return x - y;
+}
+
+function print(element) {
+    console.log(element);
+} */
+////////////// END OF SORT AN ARRAY OF NUMBERS LESSON ///////////////////
