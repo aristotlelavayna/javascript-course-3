@@ -195,3 +195,52 @@ function print(element) {
     console.log(element);
 } */
 ////////////// END OF SORT AN ARRAY OF NUMBERS LESSON ///////////////////
+
+
+//////////////// ARROW FUNCTION EXPRESSIONS LESSON //////////////////////
+// arrow => function = compact alternative to a traditional function expression.
+
+            // EXAMPLE 1
+/* const greeting = function (userName) {
+    console.log(`Hello ${userName}`);
+}
+greeting("Aristotle"); */
+
+    // EXAMPLE 1 ARROW FUNCTION
+/* const greeting = userName => console.log(`Hello ${userName}`);
+
+greeting("Aristotle"); */
+
+            // EXAMPLE 2
+/* const percent = function (x, y) {
+    return x / y * 100
+}
+console.log(`${percent(75, 100)}%`); */
+
+    // EXAMPLE 2 ARROW FUNCTION
+/* const percent = (x, y) => x / y * 100
+
+console.log(`${percent(45, 50)}%`); */
+
+            // EXAMPLE 3
+/* let grades = [100, 50, 90, 60, 80, 70];
+
+grades.sort(descending);
+grades.forEach(print);
+
+function descending(x, y) {
+    return y - x; 
+}
+
+function print(element) {
+    console.log(element);
+} */
+
+    // EXAMPLE 3 ARROW FUNCTION
+/* let grades = [100, 50, 90, 60, 80, 70];
+
+grades.sort((x, y) => y - x);
+
+grades.forEach((element) => console.log(element)); */
+
+/////////////// END OF ARROW FUNCTION EXPRESSIONS LESSON ////////////////
