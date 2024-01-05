@@ -98,8 +98,3 @@ function sum(...numbers) {
     return total
 } */
 //////////////////// END OF REST PARAMETERS LESSON //////////////////////
-
-
-////////////////////////// CALLBACKS LESSON /////////////////////////////
-// callback = a function passed as an argument to another function.
-
