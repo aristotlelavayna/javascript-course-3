@@ -307,3 +307,32 @@ function checkWinner(win) {
     win ? console.log('YOU WIN!') : console.log('YOU LOSE!');
 } */
 //////////////////// END OF TERNARY OPERATOR LESSON /////////////////////
+
+
+//////////////////////// FORMAT CURRENCY LESSON /////////////////////////
+// toLocaleString() = returns a string with a language sensitive representation of this.
+
+// number.toLocaleString(locale, {options});
+
+// 'locale' = specify that language (undefined = default)
+// 'options' = object with formatting options
+
+/* let myNum = 123456.789;
+
+myNum = myNum.toLocaleString("en-US");// US English
+myNum = myNum.toLocaleString("hi-IN");// Hindi
+myNum = myNum.toLocaleString("de-DE");// Standard German
+
+// currency
+myNum = myNum.toLocaleString("en-US", {style: "currency", currency: "USD"});
+myNum = myNum.toLocaleString("hi-IN", {style: "currency", currency: "INR"});
+myNum = myNum.toLocaleString("de-DE", {style: "currency", currency: "EUR"});
+
+// percentage
+myNum = myNum.toLocaleString(undefined, {style: "percent"});
+
+// unit like kilometer
+myNum = myNum.toLocaleString(undefined, {style: "unit", unit: "celsius"});
+
+console.log(myNum); */
+//////////////////// END OF FORMAT CURRENCY LESSON //////////////////////
