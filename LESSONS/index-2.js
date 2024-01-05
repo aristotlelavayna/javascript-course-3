@@ -16,7 +16,7 @@ console.log(index); */
 
 
 ////////////////////// LOOP THROUGH AN ARRAY LESSON /////////////////////
-let prices = [5, 10, 15, 20, 25];
+/* let prices = [5, 10, 15, 20, 25]; */
 
 // standard for loop
 /* for (let i = 0; i < prices.length; i+=1) {
@@ -63,3 +63,19 @@ for (let list of groceryList) {
     }
 } */
 ////////////////////// END OF 2D ARRAYS LESSON //////////////////////////
+
+
+////////////////////// SPREAD OPERATOR LESSON ///////////////////////////
+//spread operator ... = allows an iterable such as an array or string to be expanded in places where zero or more arguments are expected (unpacks the elements)
+
+/* let numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9,];
+let maximum = Math.max(...numbers);
+console.log(maximum);
+
+let class1 = ["spongebob", "patrick", "sandy"];
+let class2 = ["squidward", "mr.krabs", "plankton"];
+
+class1.push(...class2);
+
+console.log(...class1); */ // or console.log(class1);
+///////////////////// END OF SPREAD OPERATOR LESSON /////////////////////
