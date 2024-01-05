@@ -200,29 +200,29 @@ function print(element) {
 //////////////// ARROW FUNCTION EXPRESSIONS LESSON //////////////////////
 // arrow => function = compact alternative to a traditional function expression.
 
-            // EXAMPLE 1
+            // EXAMPLE 1 //
 /* const greeting = function (userName) {
     console.log(`Hello ${userName}`);
 }
 greeting("Aristotle"); */
 
-    // EXAMPLE 1 ARROW FUNCTION
+            // EXAMPLE 1 ARROW FUNCTION //
 /* const greeting = userName => console.log(`Hello ${userName}`);
 
 greeting("Aristotle"); */
 
-            // EXAMPLE 2
+            // EXAMPLE 2 //
 /* const percent = function (x, y) {
     return x / y * 100
 }
 console.log(`${percent(75, 100)}%`); */
 
-    // EXAMPLE 2 ARROW FUNCTION
+            // EXAMPLE 2 ARROW FUNCTION //
 /* const percent = (x, y) => x / y * 100
 
 console.log(`${percent(45, 50)}%`); */
 
-            // EXAMPLE 3
+            // EXAMPLE 3 //
 /* let grades = [100, 50, 90, 60, 80, 70];
 
 grades.sort(descending);
@@ -236,7 +236,7 @@ function print(element) {
     console.log(element);
 } */
 
-    // EXAMPLE 3 ARROW FUNCTION
+            // EXAMPLE 3 ARROW FUNCTION //
 /* let grades = [100, 50, 90, 60, 80, 70];
 
 grades.sort((x, y) => y - x);
