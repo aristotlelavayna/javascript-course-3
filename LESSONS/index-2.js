@@ -9,7 +9,7 @@ fruits.unshift("mango"); // add element to beginning.
 fruits.shift(); // removes element from beginning.
 
 let length = fruits.length;
-let index = fruits.indexOf("apple");
+let index = fruits.indexOf("banana");
 
 console.log(index);
 ////////////////////////// END OF ARRAYS LESSON /////////////////////////
