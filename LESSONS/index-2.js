@@ -32,4 +32,34 @@ let prices = [5, 10, 15, 20, 25];
 /* for (let price of prices) {
     console.log(price);
 } */
-///////////////// END OF LOOP THROUGH AN ARRAY LESSON ////////////////// 
+///////////////// END OF LOOP THROUGH AN ARRAY LESSON //////////////////
+
+
+////////////////// SORT AN ARRAY OF STRINGS LESSON //////////////////////
+/* let fruits = ["banana", "apple", "orange", "mango"];
+
+fruits = fruits.sort();
+fruits = fruits.sort().reverse(); // reverse method
+
+for (let fruit of fruits) {
+    console.log(fruit);
+} */
+/////////////// END OF SORT AN ARRAY OF STRINGS LESSON //////////////////
+
+
+////////////////////////// 2D ARRAYS LESSON /////////////////////////////
+/* let fruits =        ["apples", "oranges", "bananas"];
+let vegetables =    ["carrots", "onions", "potatoes"];
+let meats =         ["eggs", "chicken", "fish"];
+
+let groceryList = [fruits, vegetables, meats];
+
+groceryList[2][2] = "steak" // how to change a certain index
+// first [] is the row. second [] is the column.
+
+for (let list of groceryList) {
+    for (let food of list) {
+        console.log(food);
+    }
+} */
+////////////////////// END OF 2D ARRAYS LESSON //////////////////////////
