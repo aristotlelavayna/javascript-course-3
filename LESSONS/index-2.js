@@ -247,7 +247,7 @@ grades.forEach((element) => console.log(element)); */
 
 
 /////////////////////// SHUFFLE AN ARRAY LESSON /////////////////////////
-let cards = ["A", "2", "3", "4", "5", "6", "7", "8", "9", "10", "J", "Q", "K"];
+/* let cards = ["A", "2", "3", "4", "5", "6", "7", "8", "9", "10", "J", "Q", "K"];
 
 shuffle(cards);
 
@@ -267,5 +267,27 @@ function shuffle(array) {
     }
 
     return array;
-}
+} */
 //////////////////// END OF SHUFFLE AN ARRAY LESSON /////////////////////
+
+
+////////////////////// NESTED FUNNCTIONS LESSON /////////////////////////
+// nested functions = functions inside other functions. Outer functions have access to inner functions. Inner functions are "hidden" from outside. Used in closures.
+
+/* let userName = "Aristotle";
+let userInbox = 0;
+
+login();
+
+function login() {
+    displayUserName()
+    displayUserInbox()
+
+    function displayUserName() {
+        console.log(`Welcome ${userName}!`);
+    }
+    function displayUserInbox() {
+        console.log(`You have ${userInbox} new messages.`);
+    }
+} */
+/////////////////// END OF NESTED FUNNCTIONS LESSON /////////////////////
