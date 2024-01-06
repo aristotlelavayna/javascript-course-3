@@ -301,7 +301,7 @@ function login() {
     ["jeans", 30],
     ["socks", 10],
     ["underwear", 50]
-]);
+]); */
 
 /* let shoppingCart = 0;
 
@@ -314,7 +314,7 @@ console.log(shoppingCart); */
 //store.set("hat", 40);
 //store.delete("hat");
 //console.log(store.has("hat"));
-console.log(store.size);
+/* console.log(store.size);
 
 store.forEach((value, key) => console.log(`${key} $${value}`)); */
 
