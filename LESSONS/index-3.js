@@ -55,7 +55,7 @@ player2.exit(); */
 //////////////////////// CONSTRUCTOR LESSON /////////////////////////////
 // constructor = a special method of a class, accepts arguments and assigns properties.
 
-class Student {
+/* class Student {
 
     constructor (name, age, gpa) {
         this.name = name;
@@ -67,7 +67,7 @@ class Student {
     }
 }
 
-const student1 = new Student ("Spongebob", 30, 3.2);/* 
+const student1 = new Student ("Spongebob", 30, 3.2);
 const student2 = new Student ("Patrick", 35, 1.5);
 
 console.log(student1.name);
@@ -81,3 +81,28 @@ console.log(student2.gpa);
 student2.study(); */
 
 ////////////////////// END OF CONSTRUCTORS LESSON ///////////////////////
+
+
+//////////////////////////// STATIC LESSON //////////////////////////////
+// static = belongs to the class, not the objects properties: useful for caches, fixed-configuration methods: useful for utility functions.
+
+/* class Car {
+    static numberOfCars = 0;
+
+    constructor (model) {
+        this.model = model;
+        Car.numberOfCars +=1;
+    }
+    static startRace () {
+        console.log("3...2...1...GO!");
+    }
+}
+
+const car1 = new Car ("Mustang");
+const car2 = new Car ("Corvette");
+const car3 = new Car ("BMW");
+
+console.log(Car.numberOfCars);
+Car.startRace(); */
+
+////////////////////////// END OF STATIC LESSON /////////////////////////
