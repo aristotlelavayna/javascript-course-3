@@ -36,3 +36,17 @@ function countUp() {
     }
 } */
 ////////////////////// END OF setInterval LESSON ////////////////////////
+
+
+/////////////////////////// console.time() //////////////////////////////
+// console.time() = starts a timer you can use to track how long an operation takes. gives each timer a unique name.
+
+/* //start
+console.time("Response time");
+
+alert("CLICK THE OK BUTTON!");
+
+//end
+console.timeEnd("Response time"); */
+
+////////////////////// END OF console.time() LESSON /////////////////////
